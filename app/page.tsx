@@ -1,0 +1,23 @@
+import { SiteNav } from '@/components/site-nav'
+import { HeroSection } from '@/components/hero-section'
+import { AboutSection } from '@/components/about-section'
+import { SkillsSection } from '@/components/skills-section'
+import { ProjectsSection } from '@/components/projects-section'
+import { ExperienceSection } from '@/components/experience-section'
+import { EducationSection } from '@/components/education-section'
+import { ContactSection } from '@/components/contact-section'
+
+export default function Page() {
+  return (
+    <main className="min-h-screen bg-background text-foreground">
+      <SiteNav />
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ExperienceSection />
+      <EducationSection />
+      <ContactSection />
+    </main>
+  )
+}
